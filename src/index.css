@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+  margin-top: 400px;
+  font-family:'digital-clock-font';
+  background-image: url('../src/images/clock1.jpg');
+  background-image: url(/static/media/clock1.e2dbd1b2.jpg);
+  background-blend-mode: hard-light;
+  margin-left: 150px;
+}
+
+@font-face{
+  font-family:'digital-clock-font';
+  src: url('../src/digital-7/digital-7 (mono italic).ttf');
+}
